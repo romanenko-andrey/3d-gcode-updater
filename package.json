@@ -1,0 +1,18 @@
+{
+  "name": "prepare-gcode-for-3d",
+  "version": "1.0.0",
+  "description": "module for update gcode before 3D-printing with camera snapshots",
+  "main": "index.js test.gcode",
+  "scripts": {
+    "start": "node prepare-gcode-for-3d",
+    "dev": "nodemon prepare-gcode-for-3d"
+  },
+  "author": "Andrii Romanenko",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
